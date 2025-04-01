@@ -1,0 +1,41 @@
+/* 1. Style using selectors (element, class, ID) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;  /* Light blue background */
+    text-align: center;
+}
+
+/* Class Selector */
+.title {
+    color: #ff6347;  /* Tomato color */
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ID Selector */
+#intro {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #ff6347;  /* Matching the title color */
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Styling an Image */
+.styled-image {
+    width: 300px;
+    border: 5px solid #32cd32;  /* Lime green border */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4682b4;  /* Steel blue footer */
+    color: white;
+}
